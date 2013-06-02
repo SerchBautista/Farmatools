@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itsz.farmatools"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.itsz.farmatools.MenuPrincipal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.Ventas"
+            android:label="@string/title_activity_ventas" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.Busqueda"
+            android:label="@string/title_activity_busqueda" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.Servicios"
+            android:label="@string/title_activity_servicios" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.Reportes"
+            android:label="@string/title_activity_reportes" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.SinStock"
+            android:label="@string/title_activity_sin_stock" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.AltaProducto"
+            android:label="@string/title_activity_alta_producto" >
+        </activity>
+        <activity
+            android:name="com.itsz.farmatools.BusquedaAdmin"
+            android:label="@string/title_activity_busqueda_admin" >
+        </activity>
+    </application>
+
+</manifest>
